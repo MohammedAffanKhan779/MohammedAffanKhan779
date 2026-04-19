@@ -1,170 +1,146 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050816,50:0a0f2c,100:00e5ff&text=MOHAMMED%20AFFAN%20KHAN&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20Engineer%20%7C%20Systems%20Builder%20%7C%20Full%20Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=58&animation=fadeIn"/>
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:050816,25:0b1023,50:1a1040,75:00c2ff,100:7cffb2&text=MOHAMMED%20AFFAN%20KHAN&fontColor=ffffff&fontSize=40&fontAlignY=38&desc=AI%20%2F%20ML%20Builder%20%E2%80%A2%20Systems%20Engineer%20%E2%80%A2%20Full%20Stack%20Developer&descAlignY=60&animation=fadeIn"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=1100&lines=Building+AI-powered+systems+with+real-world+intent;Engineering+backend-heavy+products+with+clean+architecture;Exploring+ML%2C+GenAI%2C+Cloud%2C+Robotics+and+Systems+Design;Turning+student+projects+into+founder-grade+engineering+proof)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F5FF&center=true&vCenter=true&width=1000&lines=Building+real-world+AI+systems+that+actually+ship;Designing+backend-heavy+products+with+clean+architecture;Exploring+ML%2C+GenAI%2C+Cloud%2C+Robotics+and+Systems+Engineering;Computer+Science+student+at+PES+University;Future+founder+mindset+%7C+fast+learner+%7C+high+ownership)](https://git.io/typing-svg)
 
 <p>
-  <img src="https://img.shields.io/badge/AI%20%2F%20ML%20Builder-00E5FF?style=for-the-badge&logo=openai&logoColor=06111f&labelColor=0B1023" />
-  <img src="https://img.shields.io/badge/Systems%20Engineer-9D4EDD?style=for-the-badge&logo=linux&logoColor=ffffff&labelColor=0B1023" />
-  <img src="https://img.shields.io/badge/Full%20Stack%20Developer-7CFFB2?style=for-the-badge&logo=vercel&logoColor=06111f&labelColor=0B1023" />
+  <img src="https://img.shields.io/badge/AI_Engineer-00e5ff?style=for-the-badge&logo=openai&logoColor=0b0f19&labelColor=0b0f19" />
+  <img src="https://img.shields.io/badge/Systems_Builder-7CFFB2?style=for-the-badge&logo=linux&logoColor=0b0f19&labelColor=0b0f19" />
+  <img src="https://img.shields.io/badge/Full_Stack_Developer-FFD166?style=for-the-badge&logo=vercel&logoColor=0b0f19&labelColor=0b0f19" />
+  <img src="https://img.shields.io/badge/Problem_Solver-FF6B6B?style=for-the-badge&logo=codeforces&logoColor=0b0f19&labelColor=0b0f19" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/PES%20University-Bangalore-111827?style=flat-square&logo=academia&logoColor=00E5FF" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20ML%20%7C%20Cloud%20%7C%20Backend-111827?style=flat-square&logo=databricks&logoColor=7CFFB2" />
-  <img src="https://img.shields.io/badge/Status-Building%20Relentlessly-111827?style=flat-square&logo=githubactions&logoColor=9D4EDD" />
-  <img src="https://komarev.com/ghpvc/?username=MohammedAffanKhan779&style=flat-square&color=00E5FF&label=PROFILE+VIEWS" />
+  <img src="https://img.shields.io/badge/PES_University-Bangalore-00e5ff?style=flat-square&labelColor=111827" />
+  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20ML%20%7C%20Cloud%20%7C%20Backend-7CFFB2?style=flat-square&labelColor=111827" />
+  <img src="https://img.shields.io/badge/Status-Building%20Relentlessly-FF4D94?style=flat-square&labelColor=111827" />
+  <img src="https://komarev.com/ghpvc/?username=MohammedAffanKhan779&style=flat-square&color=00e5ff&label=PROFILE+VIEWS" />
 </p>
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00E5FF,50:9D4EDD,100:7CFFB2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=00e5ff"/>
 
-## 01. `whoami`
+## `whoami`
 
-<div align="center">
+```bash
+> whoami
 
-| `identity.terminal` |
-|---|
-| ```bash
-| > whoami
-| Mohammed Affan Khan
-|
-| > role
-| AI / ML Builder
-| Systems Engineer
-| Full Stack Developer
-|
-| > base
-| Computer Science student @ PES University
-|
-| > interests
-| AI, Machine Learning, Cloud, Backend, Systems Design
-|
-| > mode
-| Learning fast. Building practical systems. Shipping upward.
-| ``` |
+Mohammed Affan Khan
+Computer Science student @ PES University
+AI Engineer in the making
+Systems-minded full stack builder
+Interested in ML, GenAI, Cloud, backend architecture, systems design, and practical product engineering
 
-</div>
+> mission
 
-## 02. `currently.building`
+Build software that is useful, scalable, and founder-grade.
+Learn fast. Ship often. Solve hard problems with clean systems.
+```
 
-<div align="center">
+## `currently.log`
 
-| `live.status` |
-|---|
-| ```log
-| [ACTIVE] Designing backend-centric applications with real architecture
-| [ACTIVE] Exploring applied GenAI workflows and prompt-driven systems
-| [ACTIVE] Strengthening ML foundations through experiments and lab work
-| [ACTIVE] Building systems intuition via container/runtime and CI/CD projects
-| [ACTIVE] Expanding into robotics + computer vision with ROS2 simulations
-| [NEXT] Converting strong academic work into startup-grade engineering signal
-| ``` |
+```log
+[ACTIVE] Building practical software with strong backend + system design fundamentals
+[ACTIVE] Exploring GenAI workflows, prompt engineering, and applied ML
+[ACTIVE] Learning cloud-native thinking, CI/CD, and software engineering discipline
+[ACTIVE] Working on robotics + computer vision concepts through ROS2 simulation projects
+[NEXT] Turning student projects into recruiter-worthy and startup-worthy engineering stories
+```
 
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7CFFB2"/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:7CFFB2,50:00E5FF,100:9D4EDD"/>
-
-## 03. `featured_projects`
-
-<div align="center">
+## `featured_projects`
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 🚨 [Disaster-Relief-Management-System](https://github.com/MohammedAffanKhan779/Disaster-Relief-Management-System)
-**Spring Boot disaster operations platform**
+**Spring Boot + MVC + MySQL disaster operations platform**
 
-`Java` `Spring Boot` `MVC` `MySQL` `REST API`
-
-- Role-based disaster relief workflow system
-- Clean MVC layering with services, repositories, entities, and controllers
-- Covers donations, disaster tracking, resource allocation, dashboards, and seeded data
-- Strong backend + domain-modeling engineering signal
+- Role-based system with donors, volunteers, relief staff, admins, and authorities
+- Structured MVC architecture with JPA entities, services, repositories, and controllers
+- REST endpoints, donation flows, disaster tracking, resource allocation, and seeded datasets
+- Strong signal for backend engineering, domain modeling, and real-world workflow design
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 🌐 [Professional-Networking](https://github.com/MohammedAffanKhan779/Professional-Networking)
-**Full-stack networking platform**
+**Full-stack LinkedIn-style networking platform**
 
-`React` `TypeScript` `Node.js` `Express` `MySQL`
-
-- LinkedIn-style product with profiles, feed, connections, activity, and resume builder
-- Uses triggers and stored procedures for clean backend integrity
-- Product-minded build with solid data modeling and modern frontend stack
-- Strong proof of full-stack execution
+- React + TypeScript + Vite frontend with Node.js, Express, and MySQL backend
+- Activity tracking, connection suggestions, comments, likes, and resume builder
+- Uses database triggers and stored procedures for count integrity and optimized queries
+- Strong signal for product thinking, full-stack execution, and data-driven backend design
 
 </td>
 </tr>
 
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 🐳 [Docksmith](https://github.com/Shehzaad-khan/Docksmith)
-**Container runtime systems project**
+**Collaborative systems build: container runtime from scratch**
 
-`Go` `Systems` `Isolation` `Layer Caching`
-
-- Simplified container build/runtime system from scratch
-- Implements content addressing, layer caching, and process isolation concepts
-- Signals genuine systems engineering interest beyond standard app development
-- Excellent low-level engineering credibility
+- Go-based container build/runtime system
+- Implements content addressing, layer caching, and OS-level process isolation
+- Strong systems programming signal with low-level runtime design concepts
+- Excellent proof of interest in infrastructure and foundational engineering
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 🔥 [drone-fire-detection-ros2](https://github.com/Shehzaad-khan/drone-fire-detection-ros2)
-**ROS2 fire-detection simulation**
+**Collaborative robotics + CV build in ROS2**
 
-`ROS2` `Gazebo` `OpenCV` `Python`
-
-- Drone-based fire detection in a simulation environment
-- Combines robotics middleware, vision pipelines, and real-time alerts
-- Shows cross-domain engineering range across AI + robotics + systems
-- Distinctive project with high technical recall value
+- ROS2 + Gazebo + OpenCV simulation-based drone fire detection workflow
+- Camera feed processing, autonomous environment scanning, and alert visualization
+- Connects robotics middleware, simulation, and computer vision
+- Strong signal for cross-domain engineering beyond standard web development
 
 </td>
 </tr>
 
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 🧠 [GenAI_Handson](https://github.com/MohammedAffanKhan779/GenAI_Handson)
-**Applied GenAI experimentation workspace**
+**Applied generative AI experiments and prompt workflows**
 
-`GenAI` `Prompt Engineering` `LCEL` `Notebooks`
-
-- Hands-on experiments around prompt engineering and practical AI workflows
-- Includes benchmark-style notebooks and task-oriented GenAI exercises
-- Signals active exploration of modern AI tooling, not just passive interest
-- Useful bridge between ML foundations and AI product building
+- Hands-on notebooks and artifacts around prompt engineering and LCEL-style flows
+- Includes customer feedback analysis and movie-age calculator experiments
+- Shows early applied GenAI exploration with practical outputs instead of theory-only work
+- Strong signal for curiosity, iteration speed, and AI tooling fluency
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
 ### 📊 [ML_F_PES2UG23CS343_Mohammed_Affan_Khan](https://github.com/MohammedAffanKhan779/ML_F_PES2UG23CS343_Mohammed_Affan_Khan)
-**Machine learning experiment portfolio**
+**Machine learning lab portfolio**
 
-`Jupyter` `ML` `Experiments` `Reports`
-
-- Collection of ML labs, notebooks, reports, and iterative experiments
-- Shows consistent hands-on work with models, workflows, and evaluation
-- Strengthens the profile with practical ML depth
-- Good evidence of disciplined technical learning
+- Jupyter-heavy ML work with multiple labs, experiments, notebooks, and reports
+- Demonstrates repetition, experimentation, and hands-on model workflow exposure
+- Useful evidence of practical ML learning rather than surface-level interest
+- Complements the AI + systems profile with technical depth in experimentation
 
 </td>
 </tr>
 </table>
 
-</div>
+### `engineering_tracks`
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:9D4EDD,50:00E5FF,100:7CFFB2"/>
+- ☁️ [Cloud_Computing-MONOLITHIC-ARCHITECTURE](https://github.com/MohammedAffanKhan779/Cloud_Computing-MONOLITHIC-ARCHITECTURE)  
+  Cloud computing lab work around monolithic application architecture and deployment-oriented thinking
 
-## 04. `tech_arsenal`
+- ⚙️ [PES2UG23CS343_Jenkins](https://github.com/MohammedAffanKhan779/PES2UG23CS343_Jenkins)  
+  CI/CD-focused work using `Jenkinsfile`, custom Dockerized Jenkins setup, backend integration, and Nginx structure
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=FFD166"/>
+
+## `tech_stack`
 
 <div align="center">
 
@@ -172,102 +148,86 @@
 
 </div>
 
+```yaml
+core_strengths:
+  - backend engineering
+  - full-stack application development
+  - systems thinking
+  - practical AI/ML experimentation
+  - cloud and deployment fundamentals
+  - CI/CD workflow awareness
+
+currently_gravitating_towards:
+  - applied AI products
+  - scalable backend systems
+  - intelligent developer tools
+  - robotics + computer vision
+  - startup-grade product engineering
+```
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=FF4D94"/>
+
+## `github.stats`
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MohammedAffanKhan779&show_icons=true&theme=transparent&hide_border=true&title_color=00e5ff&icon_color=7cffb2&text_color=e5f7ff&bg_color=00000000&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAffanKhan779&layout=compact&theme=transparent&hide_border=true&title_color=00e5ff&text_color=e5f7ff&bg_color=00000000" />
+</div>
+
+<div align="center">
+  <img height="170" src="https://streak-stats.demolab.com?user=MohammedAffanKhan779&theme=transparent&hide_border=true&ring=00E5FF&fire=FF4D94&currStreakLabel=7CFFB2&sideLabels=E5F7FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9FB3C8" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MohammedAffanKhan779&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10" />
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=00e5ff"/>
+
+## `contribution_graph`
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MohammedAffanKhan779/MohammedAffanKhan779/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7CFFB2"/>
+
+## `build.philosophy`
+
+```text
+I like building things that are not just "cool demos" but systems:
+products with structure,
+backends with intent,
+APIs with clarity,
+and AI that solves real problems.
+
+My direction is simple:
+learn aggressively,
+engineer deeply,
+ship practical systems,
+and keep compounding.
+```
+
+## `connect`
+
 <div align="center">
 
-| `stack.matrix` |
-|---|
-| ```yaml
-| core:
-|   - backend engineering
-|   - full-stack product development
-|   - systems thinking
-|
-| ai_layer:
-|   - machine learning
-|   - generative ai experimentation
-|   - prompt engineering
-|
-| infra_layer:
-|   - docker
-|   - jenkins
-|   - linux
-|   - cloud-oriented workflows
-|
-| direction:
-|   - scalable backend systems
-|   - applied ai products
-|   - developer tools
-|   - robotics + computer vision
-| ``` |
+[![GitHub](https://img.shields.io/badge/GitHub-MohammedAffanKhan779-00e5ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0b0f19)](https://github.com/MohammedAffanKhan779)
+[![Follow](https://img.shields.io/github/followers/MohammedAffanKhan779?style=for-the-badge&color=7CFFB2&labelColor=0b0f19)](https://github.com/MohammedAffanKhan779?tab=followers)
+[![Stars](https://img.shields.io/github/stars/MohammedAffanKhan779?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=FFD166&labelColor=0b0f19)](https://github.com/MohammedAffanKhan779?tab=repositories)
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00E5FF,50:7CFFB2,100:9D4EDD"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=FF4D94"/>
 
-## 05. `github_analytics_dashboard`
+## `motto`
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=MohammedAffanKhan779&show_icons=true&theme=transparent&hide_border=true&title_color=00E5FF&icon_color=7CFFB2&text_color=E6F1FF&bg_color=00000000&rank_icon=github" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAffanKhan779&layout=compact&theme=transparent&hide_border=true&title_color=9D4EDD&text_color=E6F1FF&bg_color=00000000" />
-
-<img height="180" src="https://streak-stats.demolab.com?user=MohammedAffanKhan779&theme=transparent&hide_border=true&ring=00E5FF&fire=9D4EDD&currStreakLabel=7CFFB2&sideLabels=E6F1FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=AAB8D3" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=MohammedAffanKhan779&theme=algolia&no-bg=true&no-frame=true&margin-w=10&margin-h=10" />
+> **Build with depth. Learn with speed. Ship with intent.**
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:7CFFB2,50:9D4EDD,100:00E5FF"/>
-
-## 06. `contribution_snake`
-
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/MohammedAffanKhan779/MohammedAffanKhan779/output/github-contribution-grid-snake-dark.sv g" alt="snake animation" />
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:9D4EDD,50:00E5FF,100:7CFFB2"/>
-
-## 07. `build_philosophy`
-
-<div align="center">
-
-| `engineering.mindset` |
-|---|
-| ```text
-| I care about systems that feel intentional.
-|
-| Not just code that works,
-| but architectures that scale,
-| products that make sense,
-| and AI that solves a real problem.
-|
-| My direction is simple:
-| build with depth,
-| learn aggressively,
-| improve fast,
-| and compound real engineering skill over time.
-| ``` |
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00E5FF,50:9D4EDD,100:7CFFB2"/>
-
-## 08. `connect_hub`
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-MohammedAffanKhan779-00E5FF?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0B1023)](https://github.com/MohammedAffanKhan779)
-[![Followers](https://img.shields.io/github/followers/MohammedAffanKhan779?style=for-the-badge&color=9D4EDD&labelColor=0B1023)](https://github.com/MohammedAffanKhan779?tab=followers)
-[![Stars](https://img.shields.io/github/stars/MohammedAffanKhan779?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=7CFFB2&labelColor=0B1023)](https://github.com/MohammedAffanKhan779?tab=repositories)
-
-</div>
-
-## 09. `signature_quote`
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=80&section=header&text=Build%20with%20depth.%20Learn%20with%20speed.%20Ship%20with%20intent.&fontSize=20&fontColor=E6F1FF&color=0:0B1023,50:111A32,100:0B1023"/>
-
+  <sub>Designed for a premium, futuristic GitHub profile presence.</sub>
 </div>
