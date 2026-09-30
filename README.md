@@ -1,11 +1,10 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050816,50:0a0f2c,100:00e5ff&text=MOHAMMED%20AFFAN%20KHAN&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20Engineer%20%7C%20Systems%20Builder%20%7C%20Full%20Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=58&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050816,50:0a0f2c,100:00e5ff&text=MOHAMMED%20AFFAN%20KHAN&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=CSE%20Student%20%7C%20Full%20Stack%20%7C%20AI%2FML%20%7C%20Systems&descAlignY=58&animation=fadeIn"/>
 
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F5FF&center=true&vCenter=true&width=1000&lines=Building+real-world+AI+systems+that+actually+ship;Designing+backend-heavy+products+with+clean+architecture;Exploring+ML%2C+GenAI%2C+Cloud%2C+Robotics+and+Systems+Engineering;Computer+Science+student+at+PES+University;Future+founder+mindset+%7C+fast+learner+%7C+high+ownership)](https://git.io/typing-svg)
 
 <p>
-  <img src="https://img.shields.io/badge/AI_Engineer-00e5ff?style=for-the-badge&logo=openai&logoColor=0b0f19&labelColor=0b0f19" />
   <img src="https://img.shields.io/badge/Systems_Builder-7CFFB2?style=for-the-badge&logo=linux&logoColor=0b0f19&labelColor=0b0f19" />
   <img src="https://img.shields.io/badge/Full_Stack_Developer-FFD166?style=for-the-badge&logo=vercel&logoColor=0b0f19&labelColor=0b0f19" />
   <img src="https://img.shields.io/badge/Problem_Solver-FF6B6B?style=for-the-badge&logo=codeforces&logoColor=0b0f19&labelColor=0b0f19" />
@@ -29,13 +28,13 @@
 
 Mohammed Affan Khan
 Computer Science student @ PES University
-AI Engineer in the making
-Systems-minded full stack builder
+Full-stack and AI/ML learner
+Systems-minded software builder
 Interested in ML, GenAI, Cloud, backend architecture, systems design, and practical product engineering
 
 > mission
 
-Build software that is useful, scalable, and founder-grade.
+Build useful software, strengthen engineering fundamentals, and turn ideas into working products.
 Learn fast. Ship often. Solve hard problems with clean systems.
 ```
 
@@ -82,49 +81,22 @@ Learn fast. Ship often. Solve hard problems with clean systems.
 <tr>
 <td width="50%">
 
-### 🐳 [Docksmith](https://github.com/Shehzaad-khan/Docksmith)
-**Collaborative systems build: container runtime from scratch**
+### 🧠 [GenAI Hands-on](https://github.com/MohammedAffanKhan779/GenAI_Handson)
+**Coursework and experiments in generative AI**
 
-- Go-based container build/runtime system
-- Implements content addressing, layer caching, and OS-level process isolation
-- Strong systems programming signal with low-level runtime design concepts
-- Excellent proof of interest in infrastructure and foundational engineering
-
-</td>
-<td width="50%">
-
-### 🔥 [drone-fire-detection-ros2](https://github.com/Shehzaad-khan/drone-fire-detection-ros2)
-**Collaborative robotics + CV build in ROS2**
-
-- ROS2 + Gazebo + OpenCV simulation-based drone fire detection workflow
-- Camera feed processing, autonomous environment scanning, and alert visualization
-- Connects robotics middleware, simulation, and computer vision
-- Strong signal for cross-domain engineering beyond standard web development
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🧠 [GenAI_Handson](https://github.com/MohammedAffanKhan779/GenAI_Handson)
-**Applied generative AI experiments and prompt workflows**
-
-- Hands-on notebooks and artifacts around prompt engineering and LCEL-style flows
-- Includes customer feedback analysis and movie-age calculator experiments
-- Shows early applied GenAI exploration with practical outputs instead of theory-only work
-- Strong signal for curiosity, iteration speed, and AI tooling fluency
+- Hands-on exercises exploring prompting and applied GenAI workflows
+- Practical experimentation alongside formal coursework
+- Kept as supporting evidence of AI learning rather than a flagship product
 
 </td>
 <td width="50%">
 
-### 📊 [ML_F_PES2UG23CS343_Mohammed_Affan_Khan](https://github.com/MohammedAffanKhan779/ML_F_PES2UG23CS343_Mohammed_Affan_Khan)
-**Machine learning lab portfolio**
+### 🤖 [Machine Learning Labs](https://github.com/MohammedAffanKhan779/ML_F_PES2UG23CS343_Mohammed_Affan_Khan)
+**Coursework in applied machine learning**
 
-- Jupyter-heavy ML work with multiple labs, experiments, notebooks, and reports
-- Demonstrates repetition, experimentation, and hands-on model workflow exposure
-- Useful evidence of practical ML learning rather than surface-level interest
-- Complements the AI + systems profile with technical depth in experimentation
+- Jupyter notebooks, lab exercises, experiments, and reports
+- Documents practical ML coursework and implementation experience
+- Complements the software projects with hands-on ML foundations
 
 </td>
 </tr>
