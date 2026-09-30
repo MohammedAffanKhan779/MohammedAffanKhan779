@@ -50,6 +50,18 @@ Learn fast. Ship often. Solve hard problems with clean systems.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=7CFFB2"/>
 
+## `capstone`
+
+### 🏠 [IntelliHome — House Design Pipeline](https://github.com/ehanSheikh/capstone87-House)
+**Team Capstone Project · In Development · Private Repository**
+
+AI-assisted house-design pipeline exploring conversational requirements, rule-aware planning, floor-plan generation, geometry validation, and plan scoring.
+
+- Built collaboratively as a university Capstone project; the canonical repository is owned by a teammate
+- My work contributes to the engineering, integration, testing, and development of the shared system
+- Research work based on the project is planned; publication details will be added only after they are formally available
+- Repository access is currently private, so implementation details are intentionally limited here
+
 ## `featured_projects`
 
 <table>
