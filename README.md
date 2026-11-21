@@ -3,7 +3,7 @@
 CS undergrad at PES University, Bengaluru (graduating 2027). I build backend-heavy software and applied AI systems, and I care about the parts that make them reliable: tests, CI, safe defaults and clear architecture.
 
 **Open to:** software engineering internships and new-grad roles
-**Portfolio:** [mohammed-affan-khan-portfolio.vercel.app](https://mohammed-affan-khan-portfolio.vercel.app/) · **Email:** mdaffankhan7910@gmail.com · **LinkedIn:** [md-affan-khan](https://www.linkedin.com/in/md-affan-khan-960783306/)
+**Portfolio:** [mohammed-affan-khan.vercel.app](https://mohammed-affan-khan.vercel.app/) · **Email:** mdaffankhan7910@gmail.com · **LinkedIn:** [md-affan-khan](https://www.linkedin.com/in/md-affan-khan-960783306/)
 
 ---
 
