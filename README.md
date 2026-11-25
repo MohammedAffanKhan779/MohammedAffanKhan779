@@ -11,14 +11,14 @@ CS undergrad at PES University, Bengaluru (graduating 2027). I build AI workflow
 
 These repositories are private. I'm happy to walk through the code or give a demo.
 
-### Voxlead: AI workflow for sales enquiries *(solo · in development)*
-Takes in a building-material dealer's enquiries, replies on WhatsApp, works out what the buyer needs, drafts a quote and schedules follow-ups.
+### AI sales-enquiry workflow *(solo · private project · in development)*
+An LLM workflow that reads customer messages, extracts structured data and hands off to a person.
 
-- **The AI never sets a price.** Claude turns the chat into a structured requirement, and plain code calculates the quote from the dealer's catalog
-- A person approves every quote, and a draft-only mode lets a dealer try it without messaging a real buyer
+- **The AI never sets a price.** Rules in code do, a guard checks each AI reply, and a person approves before quotes are sent
 - Multi-tenant: each business's data is separated by database access rules
-- 764 automated tests, plus an evaluation set for requirement extraction
+- 764 automated tests, plus an evaluation set for the extraction
 - **Stack:** Next.js, TypeScript, Supabase/Postgres, WhatsApp Cloud API, Claude API
+- Demo on request
 
 ### Nova: local-first personal AI agent *(owner · two-person project · active)*
 Plans tasks, carries them out step by step, keeps progress across restarts, and asks for approval before anything consequential.
@@ -60,7 +60,7 @@ Turns a conversation about requirements into rule-checked floor plans, drawings 
 - My work includes error handling, code-quality checks, the electrical and plumbing sheets, STL/GLB export and the chat-first frontend redesign
 - **Stack:** Python, FastAPI, OR-Tools, Shapely, React
 
-> Voxlead, Nova, Agent Hub and IntelliHome are built with AI coding agents (Claude Code and Codex).
+> The AI sales-enquiry workflow, Nova, Agent Hub and IntelliHome are built with AI coding agents (Claude Code and Codex).
 
 ---
 
