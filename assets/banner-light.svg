@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <title>Mohammed Affan Khan</title>
+  <desc>AI workflows, agents and reliable backends. CS undergrad, PES University, Bengaluru (2027).</desc>
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="#F8F7F2" stroke="#D6DAD5" stroke-width="2"/>
+  <path d="M52 56H104" fill="none" stroke="#08766D" stroke-width="6" stroke-linecap="round"/>
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="50" y="134" fill="#172322" font-size="66" font-weight="700">Mohammed Affan Khan</text>
+    <text x="52" y="195" fill="#08766D" font-size="42" font-weight="600">AI workflows, agents and reliable backends</text>
+    <text x="52" y="248" fill="#485653" font-size="40">CS undergrad, PES University, Bengaluru (2027)</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M972 90H1012Q1034 90 1034 112V119M1034 181V188Q1034 210 1056 210H1117" stroke="#08766D" stroke-width="3" opacity=".65"/>
+    <circle cx="964" cy="90" r="8" stroke="#08766D" stroke-width="3"/>
+    <circle cx="1125" cy="210" r="8" fill="#08766D"/>
+    <rect x="1003" y="119" width="62" height="62" rx="16" fill="#E3F0EC" stroke="#08766D" stroke-width="3"/>
+    <circle cx="1034" cy="142" r="6" stroke="#08766D" stroke-width="3"/>
+    <path d="M1022 161a12 9 0 0 1 24 0" stroke="#08766D" stroke-width="3"/>
+  </g>
+</svg>
