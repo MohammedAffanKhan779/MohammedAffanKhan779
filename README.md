@@ -23,9 +23,25 @@ Takes in a building-material dealer's enquiries, replies on WhatsApp, works out 
 ### Nova: local-first personal AI agent *(owner · two-person project · active)*
 Plans tasks, carries them out step by step, keeps progress across restarts, and asks for approval before anything consequential.
 
-- Runs on local models through Ollama, with a durable task journal, crash recovery and owner-controlled memory
-- Research tools store every source and treat web text as untrusted data
-- 370+ tests, GitHub Actions CI and design decisions recorded as ADRs
+**My part:** I designed Nova's vision, roadmap, core architecture and security model, and built the original executor, approval journal, private-data routing and web-fetch tool. My collaborator designed and built later parts, including the background worker, structured records and idea tracking.
+
+**How a task runs**
+1. The local model proposes a plan, limited to templates that trusted code defines
+2. The executor checks every step against the allowed tools, resources and budgets
+3. A consequential step pauses until I approve that exact action
+4. Each result is verified and saved to a journal before the next step starts
+5. I can preview a step before approving it, read a report of the task, cancel it or stop the whole service
+
+**How the security checks work**
+- **Denied by default:** the rules are enforced in code, not in the prompt. Unknown tools and out-of-scope files are refused
+- **Exact approvals:** each approval is tied to a hash of the exact action, works once and expires after five minutes. If the action changes, the approval no longer applies
+- **Private data stays local:** unlabelled data counts as private, and the model can't relabel data, choose its own route or raise its budget
+- **Safe web reading:** HTTPS only. Private network addresses are blocked on every DNS lookup and redirect, with size and time limits, and page text is never treated as instructions
+- **Crash safety:** if a write is interrupted, it is marked uncertain and never repeated automatically
+- **Credential checks:** text that looks like a password, key or token is refused from memory
+
+377 tests pass, including tests for these checks, with GitHub Actions CI and design decisions recorded as ADRs. No personal accounts are connected yet, and a full security audit comes before the first one.
+
 - Nova's own Python layer sits on the open-source [OpenJarvis](https://github.com/open-jarvis/OpenJarvis) framework, included in the repository
 - **Stack:** Python, SQLite, Ollama
 
