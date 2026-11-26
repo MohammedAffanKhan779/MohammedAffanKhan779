@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="system-ui, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif">
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .step-one { animation: show .4s .4s both; }
+  .step-two { animation: show .4s 1s both; }
+  .decision { animation: show .5s 1.6s both; }
+}
+@keyframes show { from { opacity: 0; } to { opacity: 1; } }
+</style>
+<rect x="0" y="0" width="1200" height="420" rx="16" fill="#171B24" stroke="none"/>
+<clipPath id="panel-edge"><rect x="0" y="0" width="1200" height="420" rx="16" fill="#171B24" stroke="none"/></clipPath>
+<g clip-path="url(#panel-edge)">
+<text x="48" y="136" font-size="92" fill="#F4F6FA" font-weight="750" letter-spacing="-4">Mohammed</text>
+<text x="48" y="232" font-size="92" fill="#F4F6FA" font-weight="750" letter-spacing="-4">Affan Khan</text>
+<text x="48" y="308" font-size="30" fill="#A9B3C3">I build AI agents and backends</text>
+<text x="48" y="348" font-size="30" fill="#A9B3C3">that ask before they act.</text>
+<g transform="translate(608 30)"><rect x="0" y="0" width="552" height="360" rx="12" fill="#222834" stroke="#3D4759"/><text x="24" y="40" font-size="24" fill="#F4F6FA" font-weight="700" letter-spacing="0">Run log</text><path d="M0 56H552M40 92V312" fill="none" stroke="#3D4759" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="40" cy="96" r="12" fill="#222834" stroke="#A9B3C3" stroke-width="1"/><circle cx="40" cy="152" r="12" fill="#222834" stroke="#A9B3C3" stroke-width="1"/><circle cx="40" cy="232" r="12" fill="#222834" stroke="#A9B3C3" stroke-width="1"/><circle cx="40" cy="312" r="12" fill="#222834" stroke="#A9B3C3" stroke-width="1"/><text x="72" y="104" font-size="24" fill="#F4F6FA" font-weight="400" letter-spacing="0">Plan the task</text><text x="72" y="160" font-size="24" fill="#F4F6FA" font-weight="400" letter-spacing="0">Check the rules</text><text x="72" y="240" font-size="24" fill="#F4F6FA" font-weight="400" letter-spacing="0">Send to customer</text><text x="72" y="320" font-size="24" fill="#F4F6FA" font-weight="400" letter-spacing="0">Save to journal</text><g class="step-one"><circle cx="40" cy="96" r="12" fill="#222834" stroke="none" stroke-width="1"/><path d="M33 96l5 5 10-11" fill="none" stroke="#5CC98B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g><g class="step-two"><circle cx="40" cy="152" r="12" fill="#222834" stroke="none" stroke-width="1"/><path d="M33 152l5 5 10-11" fill="none" stroke="#5CC98B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g><g class="decision"><rect x="16" y="192" width="520" height="80" rx="8" fill="#101218" stroke="#3D4759"/><rect x="16" y="200" width="4" height="64" rx="2" fill="#FFB454" stroke="none"/><circle cx="40" cy="232" r="11" fill="#101218" stroke="#FFB454" stroke-width="2"/><path d="M38 228v8m5-8v8" fill="none" stroke="#FFB454" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><text x="72" y="240" font-size="24" fill="#F4F6FA" font-weight="400" letter-spacing="0">Send to customer</text><rect x="304" y="208" width="136" height="48" rx="8" fill="#FFB454" stroke="none"/><text x="320" y="240" font-size="24" fill="#101218" font-weight="700" letter-spacing="0">Approve</text><text x="456" y="240" font-size="24" fill="#A9B3C3" font-weight="400" letter-spacing="0">Reject</text></g></g>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="419" rx="16" fill="none" stroke="#3D4759"/>
+</svg>
