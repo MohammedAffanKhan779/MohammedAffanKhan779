@@ -1,36 +1,25 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Mohammed Affan Khan. AI workflows, agents and reliable backends. CS undergrad, PES University, Bengaluru (2027)." src="./assets/banner-light.svg">
+  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
+  <img alt="Mohammed Affan Khan. I build AI agents and backends that ask before they act. Run log: Plan the task and Check the rules complete. Send to customer waits for Approve or Reject. Save to journal is pending." src="./assets/hero.svg">
 </picture>
 
-<p align="center">I build AI workflows and backend software with tests, human approval and safe defaults.</p>
-
-<p align="center"><strong>Open to:</strong> software engineering and applied AI internships and new-grad roles</p>
-
 <p align="center">
-  <a href="https://mohammed-affan-khan.vercel.app/"><img alt="Portfolio" src="./assets/link-portfolio.svg"></a>
-  <a href="https://mohammed-affan-khan.vercel.app/resume"><img alt="Resume" src="./assets/link-resume.svg"></a>
-  <a href="https://www.linkedin.com/in/md-affan-khan-960783306/"><img alt="LinkedIn" src="./assets/link-linkedin.svg"></a>
-  <a href="mailto:mdaffankhan7910@gmail.com"><img alt="Email" src="./assets/link-email.svg"></a>
+  <a href="https://mohammed-affan-khan.vercel.app/">Portfolio</a> · <a href="https://mohammed-affan-khan.vercel.app/resume">Resume</a> · <a href="https://www.linkedin.com/in/md-affan-khan-960783306/">LinkedIn</a> · <a href="mailto:mdaffankhan7910@gmail.com">Email</a>
 </p>
 
-## Private projects
+<p align="center">Open to software engineering and applied AI internships and new-grad roles. CS undergrad at PES University, Bengaluru, graduating 2027.</p>
 
-The code is private, so this is what each project does. I'm happy to walk through the code or give a demo.
+## What I'm building
 
-| Project | What it does | Status |
-| --- | --- | --- |
-| [**AI sales-enquiry workflow**](#ai-sales-enquiry-workflow) | Extracts requirements from customer messages for human approval | 🔒 Private, in development |
-| [**Nova**](#nova) | Runs personal tasks locally with approval for consequential steps | 🔒 Private, active |
-| [**Agent Hub**](#agent-hub) | Routes coding tasks between Claude Code and Codex | 🔒 Private, in daily use |
-| [**IntelliHome**](#intellihome) | Turns a conversation into floor plans and 3D models | 🔒 Private, active |
+The code is private, and I'm happy to walk through it or give a demo. I build these projects with AI coding agents, Claude Code and Codex. Illustrations use sample data.
 
-### AI sales-enquiry workflow
+<picture id="ai-sales-enquiry-workflow">
+  <source media="(max-width: 600px)" srcset="./assets/sales-workflow-mobile.svg">
+  <img alt="AI sales-enquiry workflow. Reads customer messages, turns them into structured requirements and hands off to a person. Rules in code set prices, never the AI. Private, solo, in development. Customer enquiry. Hi, can I get 40 chairs by Friday? Extracted requirements. Item: Chairs. Quantity: 40. Needed: Friday. Draft quote. Approve quote." src="./assets/sales-workflow.svg">
+</picture>
 
-<img alt="Private" src="./assets/pill-private.svg"> <img alt="Solo" src="./assets/pill-solo.svg"> <img alt="In development" src="./assets/pill-development.svg">
-
-Reads incoming customer messages, turns them into structured requirements, and hands off to a person for approval. Rules in code set prices, never the AI.
+<details>
+<summary><b>AI sales-enquiry workflow</b>: how it works and my part</summary>
 
 - A guard checks each AI reply, and a person approves before quotes are sent.
 - Multi-tenant: database access rules keep each business's data separate.
@@ -38,24 +27,21 @@ Reads incoming customer messages, turns them into structured requirements, and h
 
 **Stack:** Next.js, TypeScript, Supabase/Postgres, WhatsApp Cloud API, Claude API
 
-### Nova
+</details>
 
-<img alt="Private" src="./assets/pill-private.svg"> <img alt="Two-person project, owner" src="./assets/pill-two.svg"> <img alt="Active" src="./assets/pill-active.svg">
+<br>
 
-A local-first personal AI agent that plans and runs tasks step by step, keeps progress across restarts and asks for approval before anything consequential.
+<picture id="nova">
+  <source media="(max-width: 600px)" srcset="./assets/nova-mobile.svg">
+  <img alt="Nova. A local-first personal AI agent. It plans tasks, runs them step by step and asks before anything consequential. Private, owner of a two-person project, active. Task window. Plan task and check allowed tools are complete. Needs your approval. Approval expires in 5:00. Verify and save to journal is pending." src="./assets/nova.svg">
+</picture>
+
+<details>
+<summary><b>Nova</b>: how it works and my part</summary>
+
+Nova keeps progress across restarts.
 
 **My part:** I designed Nova's vision, roadmap, core architecture and security model, and built the original executor, approval journal, private-data routing and web-fetch tool. My collaborator designed and built later parts, including the background worker, structured records and idea tracking.
-
-```mermaid
-flowchart LR
-    plan["Plan"] --> checks["Checks in code"]
-    checks --> gate{"Consequential?"}
-    gate -->|Yes| approval["My approval"]
-    gate -->|No| verify["Verify"]
-    approval --> verify
-    verify --> journal["Save to journal"]
-    journal -->|Next step| checks
-```
 
 - 377 tests pass, including tests for the security checks. Nova has GitHub Actions CI and design decisions recorded as ADRs.
 - Nova's own Python layer sits on the open-source [OpenJarvis](https://github.com/open-jarvis/OpenJarvis) framework, included in the repository.
@@ -63,9 +49,6 @@ flowchart LR
 No personal accounts are connected yet, and a full security audit comes before the first one.
 
 **Stack:** Python, SQLite, Ollama
-
-<details>
-<summary>How Nova runs tasks and checks security</summary>
 
 #### How a task runs
 
@@ -86,11 +69,15 @@ No personal accounts are connected yet, and a full security audit comes before t
 
 </details>
 
-### Agent Hub
+<br>
 
-<img alt="Private" src="./assets/pill-private.svg"> <img alt="Solo" src="./assets/pill-solo.svg"> <img alt="In daily use" src="./assets/pill-daily.svg">
+<picture id="agent-hub">
+  <source media="(max-width: 600px)" srcset="./assets/agent-hub-mobile.svg">
+  <img alt="Agent Hub. Routes my coding work between Claude Code and Codex, and blocks merges that break the rules. Private, solo, in daily use. Task routing. A coding task branches into Claude Code and Codex lanes with an Allowance bar for each. Merge gate. Checks pass. Threads resolved. Owner approval is pending." src="./assets/agent-hub.svg">
+</picture>
 
-Routes my development work between Claude Code and Codex and enforces the rules around it.
+<details>
+<summary><b>Agent Hub</b>: how it works and my part</summary>
 
 - Picks a route by task difficulty and an agent by remaining allowance, with cross-agent review before merging.
 - A merge guard blocks merges with failing checks, open review threads or missing owner approval (221 test cases).
@@ -98,11 +85,19 @@ Routes my development work between Claude Code and Codex and enforces the rules 
 
 **Stack:** Bash, Python, Next.js, Postgres, macOS launchd
 
-### IntelliHome
+</details>
 
-<img alt="Private" src="./assets/pill-private.svg"> <img alt="Team capstone" src="./assets/pill-team.svg"> <img alt="Active" src="./assets/pill-active.svg">
+<br>
 
-Turns a conversation about requirements into rule-checked floor plans, drawings and 3D models. The private repository belongs to a teammate.
+<picture id="intellihome">
+  <source media="(max-width: 600px)" srcset="./assets/intellihome-mobile.svg">
+  <img alt="IntelliHome. Turns a conversation into rule-checked floor plans, drawings and 3D models. Private, team capstone, active. Floor plan showing Bed 1, Bed 2, Bed 3, Kitchen and Living. Prompt: 3 bedrooms, kitchen facing east. Rule checks passed: Bedrooms, East-facing." src="./assets/intellihome.svg">
+</picture>
+
+<details>
+<summary><b>IntelliHome</b>: how it works and my part</summary>
+
+The private repository belongs to a teammate.
 
 My work includes:
 
@@ -113,30 +108,36 @@ My work includes:
 
 **Stack:** Python, FastAPI, OR-Tools, Shapely, React
 
-> The AI sales-enquiry workflow, Nova, Agent Hub and IntelliHome are built with AI coding agents (Claude Code and Codex).
+</details>
 
----
+## Public work
 
-## Public projects
+[**ProConnect**](https://github.com/MohammedAffanKhan779/Professional-Networking)<br>
+A LinkedIn-style platform with profiles, a feed, connections with mutual suggestions, comments, likes and a resume builder, with JWT auth and MySQL triggers that keep like and comment counts consistent.<br>
+<sub>React, TypeScript, Vite, Tailwind, Node/Express, MySQL</sub>
 
-| Project | What it is |
-| --- | --- |
-| [**ProConnect**](https://github.com/MohammedAffanKhan779/Professional-Networking) | LinkedIn-style platform: profiles, feed, connections with mutual suggestions, comments and likes, resume builder. MySQL triggers keep like and comment counts consistent. JWT auth.<br>**Stack:** React, TypeScript, Vite, Tailwind, Node/Express, MySQL |
-| [**Disaster Relief Management**](https://github.com/MohammedAffanKhan779/Disaster-Relief-Management-System) | Role-based relief operations: events, relief centers, resource allocation, donations, reports and dashboards, plus a REST API. CI builds on every push to main.<br>**Stack:** Java 21, Spring Boot 3, JPA, Thymeleaf, MySQL, GitHub Actions |
-| [**Jenkins + Docker load balancing**](https://github.com/MohammedAffanKhan779/PES2UG23CS343_Jenkins) | Jenkins pipeline that builds a Dockerized backend, runs two replicas and fronts them with an Nginx load balancer.<br>**Stack:** Jenkins, Docker, Nginx |
-| [**ROS2 fire-detection drone**](https://github.com/Shehzaad-khan/drone-fire-detection-ros2) *(team)* | Simulated patrol drone in Gazebo that detects fire and raises alerts. I wrote the initial OpenCV fire-detection node ([commit 7f76c39](https://github.com/Shehzaad-khan/drone-fire-detection-ros2/commit/7f76c39)), later refined by teammates.<br>**Stack:** ROS2, Python, OpenCV |
-| [**Kafka-style message broker**](https://github.com/NavneetNayak/90_Project2_BD) *(team)* | Leader/follower broker with producers and consumers. I wrote the producer.<br>**Stack:** Python |
+[**Disaster Relief Management**](https://github.com/MohammedAffanKhan779/Disaster-Relief-Management-System)<br>
+A role-based system for relief events, centers, resource allocation, donations, reports and dashboards, with a REST API and a CI build on every push to main.<br>
+<sub>Java 21, Spring Boot 3, JPA, Thymeleaf, MySQL, GitHub Actions</sub>
+
+[**Jenkins + Docker load balancing**](https://github.com/MohammedAffanKhan779/PES2UG23CS343_Jenkins)<br>
+Jenkins pipeline that builds a Dockerized backend, runs two replicas and fronts them with an Nginx load balancer.<br>
+<sub>Jenkins, Docker, Nginx</sub>
+
+[**ROS2 fire-detection drone**](https://github.com/Shehzaad-khan/drone-fire-detection-ros2) *(team)*<br>
+I wrote the initial OpenCV fire-detection node ([commit 7f76c39](https://github.com/Shehzaad-khan/drone-fire-detection-ros2/commit/7f76c39)), later refined by teammates, for a simulated patrol drone in Gazebo that detects fire and raises alerts.<br>
+<sub>ROS2, Python, OpenCV</sub>
+
+[**Kafka-style message broker**](https://github.com/NavneetNayak/90_Project2_BD) *(team)*<br>
+I wrote the producer for this leader/follower broker with producers and consumers.<br>
+<sub>Python</sub>
 
 **Coursework:** [GenAI hands-on](https://github.com/MohammedAffanKhan779/GenAI_Handson) (LangChain, prompt engineering) · [ML labs](https://github.com/MohammedAffanKhan779/ML_F_PES2UG23CS343_Mohammed_Affan_Khan) (decision trees in scikit-learn and PyTorch) · [Cloud monolith lab](https://github.com/MohammedAffanKhan779/Cloud_Computing-MONOLITHIC-ARCHITECTURE) (Locust load tests)
 
----
-
 ## Stack
 
-| Area | Tools |
-| --- | --- |
-| Languages | Python, TypeScript, JavaScript, Java, SQL |
-| AI | Claude API, Ollama, LangChain, agent workflows, evaluation sets, scikit-learn, PyTorch, OpenCV |
-| Backend | Node/Express, Spring Boot, FastAPI, Supabase/Postgres, MySQL |
-| Frontend | React, Next.js, Vite, Tailwind |
-| Infra | GitHub Actions, Docker, Jenkins, Nginx, Vercel, Linux |
+**Languages:** Python, TypeScript, JavaScript, Java, SQL<br>
+**AI:** Claude API, Ollama, LangChain, agent workflows, evaluation sets, scikit-learn, PyTorch, OpenCV<br>
+**Backend:** Node/Express, Spring Boot, FastAPI, Supabase/Postgres, MySQL<br>
+**Frontend:** React, Next.js, Vite, Tailwind<br>
+**Infra:** GitHub Actions, Docker, Jenkins, Nginx, Vercel, Linux
